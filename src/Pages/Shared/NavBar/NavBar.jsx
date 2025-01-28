@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import hotelLogo from "../../../assets/logo.jpg";
 import { FaHandPointRight } from "react-icons/fa";
 
@@ -67,7 +67,7 @@ const NavBar = () => {
         <div className="navbar-end">
           <a className="btn bg-[#aa8453] text-white font-b hover:bg-black">
             <FaHandPointRight className="text-2xl" />
-            BOOK ROOM
+            <NavLink to="/login"> BOOK ROOM</NavLink>
           </a>
         </div>
       </div>
