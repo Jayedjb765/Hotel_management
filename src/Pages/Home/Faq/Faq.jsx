@@ -2,10 +2,10 @@ const Faq = () => {
   return (
     <div className="mb-12 px-4 md:px-12 lg:px-20">
       <div className="text-center">
-        <h2 className="font-bold text-2xl md:text-4xl lg:text-6xl text-white">
+        <h2 className="font-bold text-2xl md:text-4xl lg:text-6xl text-black">
           FAQ
         </h2>
-        <p className="font-semibold text-md md:text-lg lg:text-xl text-white mb-6">
+        <p className="font-semibold text-md md:text-lg lg:text-xl text-black mb-6">
           Please check the question and answer. If any further issues occured,
           <br className="hidden md:block" />
           please contact with us, we will solve the issue in correct time.
@@ -13,7 +13,7 @@ const Faq = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-6 lg:gap-10">
         <div className="w-full lg:w-1/2">
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title  text-white text-lg lg:text-xl font-medium">
               What are the check-in and check-out times?
@@ -25,7 +25,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3 ">
+          <div className="collapse collapse-plus bg-slate-400 mb-3 ">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:text-xl te font-medium">
               Is breakfast included in the room rate?
@@ -38,7 +38,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               Is parking available at the hotel?
@@ -50,7 +50,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               Does the hotel have Wi-Fi, and is it free?
@@ -62,7 +62,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               Do you offer airport shuttle service?
@@ -77,7 +77,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               Are pets allowed at the hotel?
@@ -89,7 +89,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               What amenities are available at the hotel?
@@ -102,7 +102,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:te te font-medium">
               Is there a cancellation policy?
@@ -115,7 +115,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:text-xl  font-medium">
               Are there any additional fees or taxes?
@@ -127,7 +127,7 @@ const Faq = () => {
               </p>
             </div>
           </div>
-          <div className="collapse collapse-plus bg-base-200 mb-3">
+          <div className="collapse collapse-plus bg-slate-400 mb-3">
             <input type="checkbox" name="my-accordion-3" />
             <div className="collapse-title text-white text-lg lg:text-xl font-medium">
               Can I store my luggage after check-out?
